@@ -1,0 +1,8 @@
+<form id='add-tack' action='' method='post' novalidate>
+	{{ form.hidden_tag() }}
+	{% for error in form.link.errors %}
+	<label class='validation-error-message' for='link'>{{ error }}</label>
+	{% endfor %}
+	{{ form.link }}
+	{{ form.submit }}
+</form>

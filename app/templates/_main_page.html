@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<header>
+	<h1><span id='curiosi'>CURIOSI</span><span id='tack'>TACK</span></h1>
+	{% include '_add_tack.html' %}
+</header>
+<main>
+	{% block board %}{% endblock %}
+</main>
+{% endblock %}

@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+header {
+	background-color: #6f3e8a;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 12px;
+}
+
+html {
+	font-family: 'Oswald', sans-serif;
+}
+
+img {
+	border: solid #6f3e8a 1px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+}
+
+label[for=email], label[for=password], label[for=confirm], a {
+	font-size: 1.2em;
+	color: #6f3e8a;
+}
+
+main {
+	padding: 12px;
+}
+
+.form-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 12px;
+}
+
+.form-group > #submit {
+	border: none;
+	background: #6f3e8a;
+	font-size: 1.2em;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	padding: 12px 8px;
+}
+
+.validation-error-message {
+	color: white;
+	margin-right: 12px;
+}
+
+#add-tack {
+	display: flex;
+	align-items: baseline;
+}
+
+#add-tack > #submit {
+	background: none;
+	border: solid white 1px;
+	border-left: none;
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	padding: 12px 8px;
+}
+
+#email, #password, #confirm {
+	border: solid #6f3e8a 1px;
+	background: none;
+	font-size: 1.2em;
+	font-family: 'Oswald', sans-serif;
+	color: #6f3e8a;
+	padding: 12px 8px;
+}
+
+#curiosi {
+	color: #bb9ecb;
+}
+
+#link {
+	border: solid white 1px;
+	background: none;
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	padding: 12px 8px;
+	width: 600px;
+}
+
+
+#login-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+#login-form {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+#tack {
+	color: white;
+}

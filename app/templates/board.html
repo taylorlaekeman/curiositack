@@ -1,0 +1,9 @@
+{% extends '_main_page.html' %}
+
+{% block board %}
+<div id='tacks-container'>
+	{% for tack in tacks %}
+		{% include '_tack.html' %}
+	{% endfor %}
+</div>
+{% endblock %}
